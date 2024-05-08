@@ -1,22 +1,5 @@
-html body { 
-    height: 100%;
-}
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
 
-body {
-    background: lightgrey;
-    height: 100%;
-    line-height: 1;
-    color: #000000;
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
@@ -593,10 +576,6 @@ p {
     transform: translate(0, -48%);
 }
 
-/* ul li::marker {
-    
-} */
-
 .profile-carousel a {
     display: block;
     text-align: center;
@@ -627,6 +606,11 @@ p {
     -ms-transition: background-color .3s; */
 }
 
+.profile-carousel img {
+    width: 100%;
+    display: inline-block;
+}
+
 .connectButton>span:first-child, .notReversed.connected>span:first-child, .connected.showDisconnected>span:first-child, .connected.reversed.showDisconnected>span:first-child {
     z-index: 1;
     margin-left: -11px;
@@ -635,4 +619,133 @@ p {
 .profile-carousel span {
     display: block;
     color: #FFF;
+}
+
+.profile-carousel span.role {
+    font-weight: 200;
+    color: #000;
+}
+
+.profile-carousel li {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
+    transition: 2s all;
+    transform: translate(0, -48%);
+}
+
+.profile-carousel li.selected {
+    opacity: 1;
+    z-index: 1;
+}
+
+#people-browse-widget>div:nth-child(2) {
+    width: 60%;
+}
+
+#people-browse-widget .people-search {
+    z-index: 5;
+}
+
+#people-browse-widget>div {
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+#people-browse-widget form {
+    padding: 0 40px 40px;
+    position: absolute;
+    top: 50%;
+    width: 95%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+#people-browse-widget form header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#people-browse-widget form>div {
+    margin-top: 4px;
+    display: none;
+}
+
+#people-browse-widget form input[type="text"], #people-browse-widget form select {
+    padding: 4px;
+    font-size: 10px;
+    background-color: #FFF;
+}
+
+#people-browse-widget form>div>span {
+    display: block;
+    font-size: 11px;
+    padding: 0 6px 6px;
+    text-align: left;
+}
+
+#age {
+    padding: 10px 4px;
+    font-size: 10px;
+}
+
+#age>span {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -6px;
+}
+
+#age-range {
+    color: #FFF;
+    position: relative;
+    height: 2px;
+    background: #ccc;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#age-range>.grip {
+    position: absolute;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px #AAA;
+    cursor: pointer;
+}
+
+#age-range>.grip>span {
+    margin-top: 25px;
+    display: inline-block;
+    color: #FFF;
+}
+
+#people-browse-widget form footer {
+    position: absolute;
+    bottom: 0;
+    right: 36px;
+    left: 0;
+}
+
+#people-browse-widget form footer button {
+    float: right;
+    margin-right: 4px;
+}
+
+#desktop-template #featured-side .item.cover:nth-child(2) {
+    height: 56.25%;
+}
+
+#featured-player {
+    height: 100%;
+    width: 100%;
 }
