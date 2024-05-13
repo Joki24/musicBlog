@@ -54,8 +54,12 @@ export default function Sidebar() {
             </nav>
           </div>
           <div className="sign-up-sign-in">
-            <button id="sign-up">Sign up</button>
-            <button id="sign-in">Sign in</button>  
+            <a href="/login">
+            <button id="sign-up">Log in</button>
+            </a>
+            <a href="/register">
+            <button id="sign-in">Sign in</button>
+            </a>  
           </div>
           <div id="footer_global">
             <span className="link">

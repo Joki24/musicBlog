@@ -1,6 +1,12 @@
 export default function Signup() {
     return (
+        <div className="signincontainer">
         <div className="sign_in">
+            <header>
+            <a href="/" data-action="logo">
+              <i className="myspace-logo svg">Myspace</i>
+            </a> 
+        </header>
             <div>
                 <h1 className="heading">Sign up page</h1>
                 <br />
@@ -14,9 +20,11 @@ export default function Signup() {
                     <br />
                     <input type="text" placeholder="Enter your last name" className="last_name"/>
                     <br />
+                    <br />
                     <label> Email</label>
                     <br />
                     <input type="email" placeholder="Enter your email here" className="email"/>
+                    <br />
                     <br />
                     <label> Password</label>
                     <br />
@@ -31,6 +39,7 @@ export default function Signup() {
                     </span>
                 </form>
             </div>
+        </div>
         </div>
     )
 }

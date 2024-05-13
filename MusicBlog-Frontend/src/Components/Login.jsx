@@ -1,8 +1,13 @@
-
 export default function Login() {
-
+    
 return (
+    <div className="signincontainer">
     <div className="login">
+        <header>
+            <a href="/" data-action="logo">
+              <i className="myspace-logo svg">Myspace</i>
+            </a> 
+          </header>
         <div>
             <h1 className="heading">Log in</h1>
                 <br />
@@ -22,9 +27,12 @@ return (
                     <br />
                     <span className="link">
                         <a href="/register">No account? Register here.</a>
+                        <br />
+                        <a href="">Password forgot? Click here</a>
                     </span>
                 </form>
         </div>
+    </div>
     </div>
   );
 }

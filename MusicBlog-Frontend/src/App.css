@@ -160,6 +160,9 @@ i .svg {
   text-transform: uppercase;
 }
 
+.nav-title {
+  color: #666;
+}
 
 h2 {
   font-size: 18px;
