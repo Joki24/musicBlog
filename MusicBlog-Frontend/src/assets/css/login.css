@@ -1,0 +1,17 @@
+body {
+    color: white;
+}
+
+.login {
+    margin-left: 165%;
+    width: 300px;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+.email, .password {
+  width: 170px;
+  text-align: center;
+}
