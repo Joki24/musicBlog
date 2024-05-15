@@ -589,22 +589,6 @@ p {
   color: #FFF;
 }
 
-#people-browse-widget form footer {
-  position: absolute;
-  bottom: 0;
-  right: 36px;
-  left: 0;
-}
-
-#people-browse-widget form footer button {
-  float: right;
-  margin-right: 4px;
-}
-
-#desktop-template #featured-side .item.cover:nth-child(2) {
-  height: 56.25%;
-}
-
 #featured-player {
   height: 100%;
   width: 100%;
@@ -618,3 +602,19 @@ p {
   left: 150px;
 }
 
+.connectButton>span:first-child, .notReversed.connected>span:first-child, .connected.showDisconnected>span:first-child, .connected.reversed.showDisconnected>span:first-child {
+  z-index: 1;
+  margin-left: -11px;
+}
+
+.connectButton>span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -7px;
+  padding: 5px;
+  border: 2px solid #DDD;
+  border-radius: 8px;
+  /* -webkit-transition-property: margin-left, background-color, border-color;
+  -webkit-transition-duration: .3s; */
+}

@@ -3,8 +3,6 @@ export default function Sidebar() {
 
   return (
     <>
-      <div classNameName="App">
-      <div id="container">
         <div id="siteAlert">
               <div className="siteAlertContent"></div>
               <i className="close_18 close"></i>
@@ -101,9 +99,6 @@ export default function Sidebar() {
             </div>
           </div>
         </section>
-        <div id="wrap"></div>
-      </div>
-    </div>
     </>
   )
 }

@@ -14,6 +14,10 @@
     box-sizing: border-box;
   }
 
+  #desktop-template #homepage {
+    margin: 0 0 58px;
+}
+
   #desktop-template #featured-slider .item.cover {
     position: absolute;
     top: 0;
@@ -134,6 +138,14 @@
     background-size: cover;
     background-position: center;
   }
+
+  #desktop-template #featured-section {
+    font-size: 0;
+    height: 0;
+    padding: 34% 0 0 0;
+    position: relative;
+
+}
 
   #people-browse-widget {
     height: 100%;
@@ -266,5 +278,263 @@
     text-align: left;
 }
 
- 
+#age {
+  padding: 10px 4px;
+  font-size: 10px;
+}
 
+#people-browse-widget form footer {
+  position: absolute;
+  bottom: 0;
+  right: 36px;
+  left: 0;
+}
+
+#people-browse-widget form footer button {
+  float: right;
+  margin-right: 4px;
+}
+
+#article-category-nav {
+  border-bottom: 2px solid #666;
+  padding-bottom: 10px;
+  position: relative;
+  background-color: white;
+}
+
+#article-category-nav {
+  margin: 15px 44px 0;
+}
+
+#article-category-nav .more-btn {
+  float: right;
+  font-weight: 500;
+  font-size: 14px;
+}
+ 
+#article-category-nav a {
+  color: #666;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#article-category-nav .more-btn span {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 10px;
+  display: inline-block;
+}
+
+#article-category-nav .categories {
+  height: 33px;
+  margin-right: 110px;
+  overflow: hidden;
+}
+
+#article-category-nav .categories li:first-child {
+  margin-left: 0;
+}
+
+#article-category-nav .categories li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#article-category-nav .more-categories {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  z-index: 10;
+  list-style: none;
+  border: 2px solid #666;
+  border-radius: 2px;
+}
+
+#article-category-nav .more-categories a {
+  border-radius: 0;
+}
+
+#article-category-nav {
+  border-bottom: 2px solid #666;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.blogroll {
+  background-color: white;
+}
+
+#homepage section.blogroll, #homepage section.blogroll+section {
+  margin-top: 20px;
+}
+
+#desktop-template .container-main {
+  width: auto;
+  margin: 0 30px;
+  min-width: inherit;
+  max-width: inherit;
+}
+
+.blogroll ul {
+  overflow: hidden;
+}
+
+.blogroll li {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.blogroll article {
+  background-color: #FFF;
+  position: relative;
+  height: 0;
+  padding: calc(50% + 130px) 0 0 0;
+}
+
+.blogroll article .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.blogroll article a {
+  display: block;
+  color: #000;
+  position: relative;
+}
+
+.blogroll article .connectButton, .blogroll article .connectExpander {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -webkit-transition: opacity .3s;
+}
+
+.blogroll article img {
+  width: 100%;
+}
+
+.blogroll article .gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .35) 100%);
+}
+
+.blogroll article .category {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.blogroll article .connect-count {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.blogroll article .connect-count i {
+  height: 14px;
+  width: 19px;
+  position: relative;
+  top: 3px;
+  right: 6px;
+}
+
+.connect-isolated-white.svg {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMi41NzMgMzgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyLjU3MyAzODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRjsiIGQ9Ik0yMS43MTYsNy45MjVjLTEuOTgsMC0zLjgzMSwwLjU1LTUuNDI5LDEuNDkzYy0xLjU5OS0wLjk0NC0zLjQ0OS0xLjQ5My01LjQyOS0xLjQ5Mw0KCUM0Ljg2Miw3LjkyNSwwLDEyLjg4MywwLDE5YzAsNi4xMTYsNC44NjIsMTEuMDc1LDEwLjg1NywxMS4wNzVjMS45NzksMCwzLjgzMS0wLjU0OSw1LjQyOS0xLjQ5Mw0KCWMxLjU5OSwwLjk0MywzLjQ0OSwxLjQ5Myw1LjQyOSwxLjQ5M2M1Ljk5NiwwLDEwLjg1Ny00Ljk1OSwxMC44NTctMTEuMDc1QzMyLjU3MywxMi44ODMsMjcuNzExLDcuOTI1LDIxLjcxNiw3LjkyNXogTTE5LjAwMSwxOQ0KCWMwLDIuNDUyLTEuMDUzLDQuNjUxLTIuNzE0LDYuMTczYy0xLjY2MS0xLjUyMi0yLjcxNC0zLjcyMS0yLjcxNC02LjE3M3MxLjA1My00LjY1MSwyLjcxNC02LjE3Mw0KCUMxNy45NDgsMTQuMzQ3LDE5LjAwMSwxNi41NDgsMTkuMDAxLDE5eiBNMi43MTQsMTljMC00LjU4LDMuNjUzLTguMzA2LDguMTQzLTguMzA2YzEuMDgxLDAsMi4xMTIsMC4yMiwzLjA1OCwwLjYxMg0KCUMxMi4wMjYsMTMuMywxMC44NTcsMTYuMDA4LDEwLjg1NywxOXMxLjE2OCw1LjcwMiwzLjA1OCw3LjY5NGMtMC45NDUsMC4zOTMtMS45NzYsMC42MTItMy4wNTgsMC42MTINCglDNi4zNjcsMjcuMzA2LDIuNzE0LDIzLjU4MSwyLjcxNCwxOXogTTIxLjcxNiwyNy4zMDZjLTEuMDgxLDAtMi4xMTItMC4yMi0zLjA1OC0wLjYxMmMxLjg4OS0xLjk5MiwzLjA1OC00LjcwMiwzLjA1OC03LjY5NA0KCXMtMS4xNjktNS43LTMuMDU4LTcuNjkyYzAuOTQ1LTAuMzkzLDEuOTc2LTAuNjEyLDMuMDU4LTAuNjEyYzQuNDksMCw4LjE0MywzLjcyNSw4LjE0Myw4LjMwNg0KCUMyOS44NTksMjMuNTgxLDI2LjIwNiwyNy4zMDYsMjEuNzE2LDI3LjMwNnoiLz4NCjwvc3ZnPg0K);
+}
+
+.blogroll article .info {
+  font-size: 14px;
+  color: #999;
+  font-weight: 200;
+  padding: 10px 20px;
+  line-height: 22px;
+}
+
+.blogroll article .title {
+  color: #000;
+  font-weight: 500;
+  overflow: hidden;
+  line-height: 22px;
+  font-size: 18px;
+  max-height: 46px;
+}
+
+.blogroll article a {
+  display: block;
+  color: #000;
+  position: relative;
+}
+
+.blogroll article .info p {
+  max-height: 46px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#desktop-template #recommended-people {
+  background: #FFF;
+}
+
+#homepage #recommended-people {
+  padding: 50px 0;
+}
+
+#homepage section.blogroll, #homepage section.blogroll+section {
+  margin-top: 20px;
+}
+
+#desktop-template #recommended-people .section-header {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-size: 22px;
+}
+
+.join-millions {
+  font-size: 16px;
+  color: #909090;
+  text-align: center;
+  margin: 40px 0 30px 0;
+}
+
+.sign-up-button {
+  text-align: center;
+}
+
+.sign-up-today {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+@media screen and (min-width: 568px) {
+  .blogroll li {
+      width: 50%;
+      padding: 15px;
+      margin-top: 0;
+  }
+}
