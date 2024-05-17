@@ -84,7 +84,7 @@ export default function Sidebar() {
             <br></br>
             <br></br>
             <span className="network">A part of the People / Entertainment Weekly Network.</span>
-            <div id="site-info-popup" classNamestyle="display: none;">
+            <div id="site-info-popup" className="display: none;">
               <ul className="site-info-links">
                 <li>
                   <a href="/reportabuse" target="_blank">Report Abuse</a>

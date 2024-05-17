@@ -1,0 +1,110 @@
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #articleWrap {
+    float: left;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .articleHeader {
+    position: relative;
+    background: rgb(0, 0, 0);
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #articleWrap .cover {
+    opacity: 0.8;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #wrap {
+    position: static;
+    left: 0px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 div {
+    background: #F4F4F4;
+    padding-bottom: 80px;
+}
+
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #wrap *, .beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #wrap ::before, .beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #wrap ::after {
+    box-sizing: border-box;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .cover {
+    height: 400px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.cover {
+    background-image: url(https://a1-images.myspacecdn.com/images04/11/bd2c410…/full.jpg);
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #page_header {
+    position: absolute;
+    bottom: 40px;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #articleWrap .page_category {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 0px 25px;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #articleWrap .page_category a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #articleWrap .page_title {
+    max-width: 75%;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0px 0px 25px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
+    line-height: 50px;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .container_right {
+    margin-left: 190px;
+    width: 68%;
+    min-width: 1050px;
+    max-width: 1285px;
+    background: rgb(255, 255, 255);
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #feature_slider {
+    width: 100%;
+    position: relative;
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .clearfix::before, .beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .clearfix::after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 #previous_article {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    z-index: 1;
+    background: rgb(221, 221, 221);
+    height: 400px;
+}
+
+@media only screen and (max-width: 1220px) {
+.beam-article-2022-3-14-thom-yorke-surprise-releases-new-song-517 .container_right {
+            width: calc(100% - 200px);
+            min-width: 660px;
+
+    }
+}

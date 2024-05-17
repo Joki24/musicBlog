@@ -28,7 +28,7 @@ return (
                     <span className="link">
                         <a href="/register">No account? Register here.</a>
                         <br />
-                        <a href="">Password forgot? Click here</a>
+                        <a href="/passwordreset">Password forgot? Click here</a>
                     </span>
                 </form>
         </div>

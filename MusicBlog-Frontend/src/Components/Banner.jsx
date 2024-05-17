@@ -10,7 +10,7 @@ export default function Banner() {
                 </div>
                 <p className="join-millions">Join the Millions of Musicians and Artists on Myspace</p>
                 <div className="sign-up-button">
-                    <a href="/signup" className="sign-up-today">Sign Up Today</a>
+                    <a href="/register" className="sign-up-today">Sign Up Today</a>
                 </div>
             </div>
         </section>
