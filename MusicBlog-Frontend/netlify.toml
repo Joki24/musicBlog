@@ -1,4 +1,0 @@
-[build]
-  base = "MusicBlog/MusicBlog-Frontend"
-  command = "npm run build"
-  publish = "dist"
