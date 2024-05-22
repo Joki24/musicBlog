@@ -15,7 +15,7 @@ import './assets/css/article.css'
 export default function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blogproject-myspaceclone">
       <Routes>
         <Route path="/" element={<HomePage/>} ></Route>
         <Route path="/register" element={<SignIn/>} ></Route>
