@@ -7,6 +7,8 @@
     "node": ">=16.13.1"
   },
   "scripts": {
+    "clean": "rm -rf node_modules package-lock.json",
+    "prebuild": "npm run clean && npm install --legacy-peer-deps",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
