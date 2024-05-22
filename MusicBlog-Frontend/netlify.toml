@@ -1,3 +1,7 @@
 [build]
   command = "npm run prebuild && npm run build"
   publish = "MusicBlog-Frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "18.20.3"
+  NPM_VERSION = "10.8.0"
