@@ -1,7 +1,7 @@
 [build]
   command = "CI='' npm run build"
-  publish = "/build"
-  base ="/"
+  publish = "build"  # Remove leading slash
+  base = "/"
 
 [build.environment]
   NODE_VERSION = "18.20.3"
