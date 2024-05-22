@@ -1,4 +1,3 @@
 [build]
-  base = "MusicBlog/MusicBlog-Frontend"
-  command = "npm run build"
-  publish = "dist"
+  command = "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps && npm run build"
+  publish = "MusicBlog-Frontend/dist"
